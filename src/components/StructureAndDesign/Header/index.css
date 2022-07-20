@@ -1,0 +1,43 @@
+.nav-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  height: 5rem;
+  width: 100vw;
+}
+
+.logo {
+  height: 35px;
+  width: 180px;
+  margin-bottom: 25px;
+  margin-left: 15px;
+}
+
+.profile {
+  height: 30px;
+  width: 30px;
+}
+
+.header-options {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 13rem;
+}
+
+.dark-icon {
+  height: 26px;
+  width: 26px;
+}
+
+.button {
+  border: 1.5px solid #3b82f6;
+  border-radius: 3px;
+  background-color: transparent;
+  color: #3b82f6;
+  font-weight: bold;
+  font-family: 'roboto';
+  padding: 5px;
+  cursor: pointer;
+}
